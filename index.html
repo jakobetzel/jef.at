@@ -33,6 +33,16 @@
     <![endif]-->
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v3.0&appId=285493738166358';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 <!-- Navigation -->
 <nav id="menu" class="navbar navbar-default navbar-fixed-top">
   <div class="container"> 
@@ -98,10 +108,6 @@
     </div>
   </div>
 </div> -->
-    <div class="col-md-8 col-md-offset-2 section-title text-center">
-      <h2>Über uns</h2>
-      <p></p>
-    </div>
     <div class="row">
       <div class="col-xs-12 col-md-6"> <img src="img/about.jpg" class="img-responsive" alt=""> </div>
       <div class="col-xs-12 col-md-6">
@@ -119,8 +125,8 @@
 <div id="about">
   <div class="container">
     <div class="col-md-8 col-md-offset-2 section-title text-center">
-      <h2>About Us</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor apibus lornare diam commodo nibh.</p>
+      <h2>Aktuelles</h2>
+      <p>Wir informieren über unsere Veranstaltungen und Aktivitäten stets tagesaktuell auf unserer Facebook-Seite.</p>
     </div>
 
   </div>
@@ -335,5 +341,6 @@
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
 <script type="text/javascript" src="js/contact_me.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
+<div class="fb-page" data-href="https://www.facebook.com/JEFAustria/" data-tabs="timeline" data-width="940" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/JEFAustria/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/JEFAustria/">Junge Europäische Föderalisten (BEJ/JEF) Österreich</a></blockquote></div>
 </body>
 </html>
