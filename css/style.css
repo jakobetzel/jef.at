@@ -1,7 +1,6 @@
 /*
 main colour: rgb(113, 181, 72);
-background colour: hex(white)
-background alternative: white;
+background colour: white;
 dark green: hex(#48742E)
 bright green: hex(#A4CF8A)
 */
@@ -109,7 +108,7 @@ ul, ol {
 	color: #71b548;
 }
 .on {
-	background-color: #03252b !important;
+	background-color: white !important;
 	padding: 0 !important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -497,17 +496,18 @@ color: #ccc;
 }
 /* Footer Section*/
 #footer {
-	background: #03252b;
+	background: rgb(113, 181, 72);
 	padding: 25px 0 20px 0;
+	color: white;
 }
 #footer p {
 	font-size: 13px;
 }
 #footer a {
-	color: #aaa;
+	text-decoration: underline;
 }
 #footer a:hover {
-	color: #71b548;
+	color:white;
 }
 
 /* Media Queries */
