@@ -199,6 +199,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
+	color: black;
 	padding: 120px 0;
 	background: white;
 }
