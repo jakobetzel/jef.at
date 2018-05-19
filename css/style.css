@@ -1,6 +1,7 @@
 /*
 main colour: rgb(113, 181, 72);
-background colour: hex(#96949D)
+background colour: hex(white)
+background alternative: white;
 dark green: hex(#48742E)
 bright green: hex(#A4CF8A)
 */
@@ -38,6 +39,9 @@ h5 {
 }
 p {
 	font-size: 15px;
+}
+.intro h2 {
+	color: white;
 }
 p.intro {
 	font-size: 16px;
@@ -124,7 +128,8 @@ ul, ol {
 }
 .btn-default {
 	color: #71b548;
-	background-color: transparent;
+	background-color: #71b548;
+	color: white;
 	border: 2px solid #71b548;
 	padding: 12px 20px;
 	margin: 0;
@@ -133,9 +138,9 @@ ul, ol {
 	text-transform: uppercase;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	color: #053740;
 	background-color: #71b548;
-	border-color: #71b548;
+	border-color: white;
+	color: white;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -162,11 +167,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro .overlay {
 	padding: 100px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#053740+0,053740+100&1+0,0.6+100 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/white+0,053740+100&1+0,0.6+100 */
 	background: -moz-linear-gradient(top, rgba(5,55,64,1) 0%, rgb(164, 207, 138, 0.6) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(5,55,64,1) 0%, rgb(164, 207, 138, 0.6) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(5,55,64,1) 0%, rgb(164, 207, 138, 0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#053740', endColorstr='#99053740', GradientType=0 ); /* IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='white', endColorstr='#99053740', GradientType=0 ); /* IE6-9 */
 }
 .section-title {
 	padding: 25px 0 60px 0;
@@ -195,7 +200,7 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 120px 0;
-	background: #053740;
+	background: white;
 }
 #services h4 {
 	color: #71b548;
@@ -205,7 +210,7 @@ header .intro-text {
 	font-size: 32px;
 	margin-bottom: 20px;
 	transition: all 0.5s;
-	color: #053740;
+	color: white;
 	width: 100px;
 	height: 100px;
 	padding: 33px 0;
@@ -240,7 +245,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20a6bb', end
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
-	background: #053740;
+	background: white;
 }
 .categories {
 	padding-bottom: 30px;
@@ -262,11 +267,11 @@ ol.type li a {
 }
 ol.type li a.active {
 	background: #71b548;
-	color: #053740;
+	color: white;
 }
 ol.type li a:hover {
 	background: #71b548;
-	color: #053740;
+	color: white;
 }
 .isotope-item {
 	z-index: 2
@@ -405,11 +410,11 @@ img.img-circle.team-img {
 }
 #contact .overlay {
 	padding: 100px 0 40px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#053740+0,053740+100&1+0,0.75+100 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/white+0,053740+100&1+0,0.75+100 */
 	background: -moz-linear-gradient(top, rgba(5,55,64,1) 0%, rgba(5,55,64,0.75) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(5,55,64,1) 0%, rgba(5,55,64,0.75) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(5,55,64,1) 0%, rgba(5,55,64,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#053740', endColorstr='#bf053740', GradientType=0 ); /* IE6-9 */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='white', endColorstr='#bf053740', GradientType=0 ); /* IE6-9 */
 }
 #contact h3 {
 	padding-top: 20px;
